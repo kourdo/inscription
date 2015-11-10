@@ -1,0 +1,34 @@
+pour ceux qui codes les classes. j'aimerais que vous lisiez la page : 
+
+	https://openclassrooms.com/courses/utilisation-d-un-orm-les-bases-de-doctrine
+	
+	https://openclassrooms.com/courses/apprendre-a-utiliser-doctrine
+
+c'est un framework très simple a utiliser que l'on doit utiliser.
+il correspond totalement a ce que l'on cherche a faire.
+donc essayer ce respecter les regle de coding décrite dans le tuto.
+construction des tables,etc... 
+telecharger et configurez donc le framework il est simple a mettre en place.
+je le mettrais en place sur le svn/github dès ce soir(10/11/2015).
+
+je me tiens a votre disposition pour tous renseignement ou question.
+
+
+arborescence : 
+
+
+-config : fichiers de config 
+
+-classes : classes php du modèle
+
+-bdd : classes php de création de bdd
+
+-lib : librairies et frameworks
+
+-ihm : scripts retournant un affichage
+
+	-pages : pages affichables
+
+	-vue : page a integrer dans les autres
+
+-index.php : script principal (main)
