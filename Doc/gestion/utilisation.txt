@@ -1,0 +1,22 @@
+	- Secrétaire général : 
+		- creer un dossier
+		- visualiser un dossier
+		- Notification d'un dossier incomplet
+
+	- Secrétaire de formation : 
+		- Editer un dossier de sa formation
+		- visualisation d'un dossier lié à la formation
+		- Notification d'un dossier complet/incomplet(envoi d'un message au concerné)
+
+	"- Membre de Commission :
+		- Visualisation d'un dossier lié à sa formation
+		- Ajout d'un pré-avis"
+
+	- Chef de Commission (Responsable de formation) "extends Membre de Commission" :
+		- Validation/Edition de la date d'ouverture/fermeture des inscriptions lié à sa formation
+		- Notification de l'admissibilité d'un dossier lié à sa formation
+
+	- Directeur :
+		- Visualisation d'un dossier
+		- accepter la decision de la commission sur un dossier
+		- refuserla décision de la commission sur un dossier
